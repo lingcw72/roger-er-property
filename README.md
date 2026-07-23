@@ -2,6 +2,10 @@
 
 A static, bilingual website built with HTML, CSS and vanilla JavaScript for GitHub Pages.
 
+The preview is currently marked `noindex, nofollow`, and `robots.txt` disallows
+all compliant crawlers. Remove both protections when the final site is ready
+for search engines.
+
 ## Preview locally
 
 Run:
