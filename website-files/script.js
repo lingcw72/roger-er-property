@@ -3,7 +3,7 @@ const translations = {
     topContact: "联系 Roger",
     heroEyebrow: "Rightmann 房地产顾问公司 · 新加坡",
     heroTitle: "为您安居之处，提供稳健建议。",
-    heroLead: "为希望以更从容的方式处理复杂房产决定的业主，提供周到、贴近本地市场的建议。",
+    heroLead: "Rightmann 创立于 1990 年，在新加坡房产市场拥有悠久历史。在 rightmann.casa，<em>casa</em> 在西班牙语中意为“家”，我们坚持以家为先的视角，并结合 Roger 在 PropertyGuru 平台 15 年的经验。",
     heroCta: "联系 Roger", heroSecondary: "了解服务", dataNote: "公开资料核实于 2026 年 7 月 23 日。",
     portraitNote: "AI 肖像概念图——正式上线前请替换为 Roger 认可的专业照片。",
     proofYears: "15 年", proofYearsLabel: "PropertyGuru 平台经验", proofTransactions: "过去三年成交记录", proofRating: "PropertyGuru 评分",
