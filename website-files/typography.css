@@ -41,6 +41,11 @@
 }
 
 @media (max-width: 720px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
   .portrait-photo {
     margin: 0;
   }
