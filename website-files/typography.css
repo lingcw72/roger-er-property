@@ -1,0 +1,51 @@
+/* Reading-size adjustments: supporting content should remain comfortable on small screens. */
+.top {
+  font-size: 13px;
+}
+
+.back {
+  font-size: 12px;
+}
+
+.stats span {
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.section-intro {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.service span {
+  font-size: 12px;
+}
+
+.service p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.direction-note {
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.hero {
+  grid-template-columns: 1.05fr .95fr;
+  gap: 6vw;
+}
+
+.portrait-photo img {
+  height: 500px;
+}
+
+@media (max-width: 720px) {
+  .portrait-photo {
+    margin: 0;
+  }
+
+  .portrait-photo img {
+    height: 420px;
+  }
+}
