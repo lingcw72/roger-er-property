@@ -2,8 +2,8 @@ const translations = {
   zh: {
     topContact: "联系 Roger",
     heroEyebrow: "Rightmann 房地产顾问公司 · 新加坡",
-    heroTitle: "为您安居之处，提供稳健建议。",
-    heroLead: "Rightmann 创立于 1990 年，在新加坡房产市场拥有悠久历史。在 rightmann.casa，<em>casa</em> 在西班牙语中意为“家”，我们坚持以家为先的视角，并结合 Roger 在 PropertyGuru 平台 15 年的经验。",
+    heroTitle: "稳健的房产建议，<br><em>始于 1990 年。</em>",
+    heroLead: "三十多年来，Rightmann 一直以经验、细心和清晰的视角，协助新加坡客户作出房产决定。",
     heroCta: "联系 Roger", heroSecondary: "了解服务", dataNote: "公开资料核实于 2026 年 7 月 23 日。",
     portraitNote: "AI 肖像概念图——正式上线前请替换为 Roger 认可的专业照片。",
     proofYears: "15 年", proofYearsLabel: "PropertyGuru 平台经验", proofTransactions: "过去三年成交记录", proofRating: "PropertyGuru 评分",
@@ -18,7 +18,7 @@ const translations = {
     faqOneQuestion: "Roger 可以协助哪些房产类型？", faqOneAnswer: "组屋、私人公寓、有地住宅及商业地产，涵盖买卖及租赁服务。",
     faqTwoQuestion: "可以用华语沟通吗？", faqTwoAnswer: "可以。Roger 可用英语和华语为客户提供服务。",
     contactEyebrow: "聊聊您的房产计划", contactTitle: "与 Roger 讨论您的下一步计划。", contactBody: "一次简短的交流，往往就能让下一步更清晰。",
-    contactWhatsApp: "WhatsApp 联系 Roger", contactCall: "致电 Roger", contactEmail: "电邮给 Roger", previewNote: "仅供私人预览。"
+    contactWhatsApp: "WhatsApp 联系 Roger", contactCall: "致电 Roger", contactEmail: "电邮给 Roger", previewNote: "仅供私人预览。", footerCasa: "<em>Casa</em> 在西班牙语中意为“家”——一个适合开始您下一段房产对话的名字。"
   }
 };
 
