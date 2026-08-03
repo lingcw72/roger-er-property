@@ -150,6 +150,19 @@ h1 {
   font-weight: 500;
 }
 h1 em, h2 em { font-family: var(--serif); font-weight: 400; }
+/* Chinese copy uses the same deliberate line break, but needs CJK-appropriate spacing. */
+html[lang="zh-SG"] h1 {
+  max-width: 11em;
+  font-family: var(--sans);
+  font-size: clamp(3.25rem, 5.8vw, 6.2rem);
+  line-height: 1.08;
+  letter-spacing: .015em;
+}
+html[lang="zh-SG"] h1 em {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+}
 .hero-lead { max-width: 580px; color: rgba(255,255,255,.75); font-size: clamp(1rem, 1.35vw, 1.2rem); }
 .hero-actions { display: flex; align-items: center; gap: 1.5rem; margin: 2rem 0 4.5rem; }
 .proof-strip {
@@ -256,6 +269,7 @@ footer p { margin: 0; font-size: .67rem; }
   .brand-mark { width: 36px; height: 36px; }
   .header-actions .button { display: none; }
   h1 { font-size: clamp(3.4rem, 18vw, 5.2rem); }
+  html[lang="zh-SG"] h1 { font-size: clamp(2.15rem, 9.3vw, 3.4rem); }
   .hero-copy { min-height: 680px; padding: 8rem 1.2rem 3rem; }
   .hero-actions { align-items: flex-start; flex-direction: column; margin-bottom: 3rem; }
   .proof-strip { gap: .75rem; }
